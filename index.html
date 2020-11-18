@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>City Survey</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <main>
+        <h1 class="hidden">City Project Survey</h1>
+        <form action="#">
+            <h2>11. Shift to Remote Work</h2>
+            <ol>
+                <li>
+                    <label for="q1">What was the percentage of employees who worked remotely on a regular basis, <div class="preLockDown">pre-lockdown <span class="tooltip">druing 4 months to the COVID lockdown (around mid-March, 2020)</span></div>?</label>
+                </li>
+                <br>
+                <div class="rangeResponse">
+                    <input type="range" value="0" id="q1" name="q1" list="percentages" class="question">
+                    <datalist id="percentages">
+                        <option value="0"></option>
+                        <option value="10"></option>
+                        <option value="20"></option>
+                        <option value="30"></option>
+                        <option value="40"></option>
+                        <option value="50"></option>
+                        <option value="60"></option>
+                        <option value="70"></option>
+                        <option value="80"></option>
+                        <option value="90"></option>
+                        <option value="100"></option>
+                    </datalist>
+                <p class="q1_response response">%</p>
+                </div>
+
+                <li>
+                    <label for="q2">What is the current percentage of employees who work remotely on a regular basis?</label>
+                </li>
+                <br>
+                <div class="rangeResponse">
+                    <input type="range" value="0" id="q2" name="q2" list="percentages" class="question">
+                    <p class="q2_response response">%</p>
+                </div>
+
+                <li>
+                    <p>If there were remote workers <div class="preLockDown">pre-lockdown <span class="tooltip">druing 4 months to the COVID lockdown (around mid-March, 2020)</span></div>, were all remote workers London-based?</p>
+                    <br>
+                    <input type="radio" id="london_loc_yes" name="london_loc" value="yes">
+                    <label for="london_loc_yes">Yes</label>
+                    <input type="radio" id="london_loc_no" name="london_loc" value="no">
+                    <label for="london_loc_no">No</label>
+                    <p>If answered No above, what roughly is the percentage of remote-workers from Canada, and abroad?</p>
+                    <div class="rangeResponse">
+                        <p>Canada</p>
+                        <input type="range" value="0" id="q3_2_1" name="q3_2_1" list="percentages" class="question">
+                        <p class="response">%</p>
+                    </div>
+                    <div class="rangeResponse">
+                        <p>Abroad</p>
+                        <input type="range" value="0" id="q3_2_2" name="q3_2_2" list="percentages" class="question">
+                        <p class="response">%</p>
+                    </div>
+                </li>
+                <li>
+                    <label for="london_loc">If there currently are remote employees, are all remote employees London-based?</label>
+                    <br>
+                    <input type="radio" id="london_loc_yes" name="london_loc" value="yes">
+                    <label for="london_loc_yes">Yes</label>
+                    <input type="radio" id="london_loc_no" name="london_loc" value="no">
+                    <label for="london_loc_no">No</label>
+                    <p>If answered No above, what roughly is the percentage of remote-workers from Canada, and abroad?</p>
+                    <div class="rangeResponse">
+                        <label for="q3_3_1">Canada</label>
+                        <input type="range" value="0" id="q3_3_1" name="q3_3_1" list="percentages" class="question">
+                        <p class="response">%</p>
+                    </div>
+                    <div class="rangeResponse">
+                        <label for="q3_3_2">Abroad</label>
+                        <input type="range" value="0" id="q3_3_2" name="q3_3_2" list="percentages" class="question">
+                        <p class="response">%</p>
+                    </div>
+                </li>
+                <li>
+                    <p>In the absence of COVID, how far does your company plan to instill remote hiring practices moving onwards?</p>
+                    <br>
+                    <input type="radio" id="no_remote" name="future_remote" value="no_remote">
+                    <label for="no_remote">No remote work (0%)</label>
+                    <br>
+                    <input type="radio" id="remote_1_20" name="future_remote" value="remote_1_20">
+                    <label for="remote_1_20">1-20% remote</label>
+                    <br>
+                    <input type="radio" id="remote_21_40" name="future_remote" value="remote_21_40">
+                    <label for="remote_21_40">21-40% remote</label>
+                    <br>
+                    <input type="radio" id="remote_41_60" name="future_remote" value="remote_41_60">
+                    <label for="remote_41_60">41-60% remote</label>
+                    <br>
+                    <input type="radio" id="remote_61_80" name="future_remote" value="remote_61_80">
+                    <label for="remote_61_80">61-80% remote</label>
+                    <br>
+                    <input type="radio" id="remote_81-99" name="future_remote" value="remote_81-99">
+                    <label for="remote_81-99">81-99% remote</label>
+                    <br>
+                    <input type="radio" id="remote_full" name="future_remote" value="remote_full">
+                    <label for="remote_full">Go fully remote (100%)</label>
+                    <br>
+                </li>
+                <br>
+                <li>
+                    <label for="q4">Does your company currently have a preference towards hiring remotely?</label>
+                    <br>
+                    <input type="radio" id="remote_pref_no_3" name="remote_pref" value="remote_pref_no_3">
+                    <label for="remote_pref_no_3">Definitely no</label>
+                    <br>
+                    <input type="radio" id="remote_pref_no_2" name="remote_pref" value="remote_pref_no_2">
+                    <label for="remote_pref_no_2">Mostly no</label>
+                    <br>
+                    <input type="radio" id="remote_pref_no_1" name="remote_pref" value="remote_pref_no_1">
+                    <label for="remote_pref_no_1">Somewhat no</label>
+                    <br>
+                    <input type="radio" id="remote_pref_neutral" name="remote_pref" value="remote_pref_neutral">
+                    <label for="remote_pref_neutral">Neutral</label>
+                    <br>
+                    <input type="radio" id="remote_pref_yes_1" name="remote_pref" value="remote_pref_yes_1">
+                    <label for="remote_pref_yes_1">Somewhat yes</label>
+                    <br>
+                    <input type="radio" id="remote_pref_yes_2" name="remote_pref" value="remote_pref_yes_2">
+                    <label for="remote_pref_yes_2">Mostly yes</label>
+                    <br>
+                    <input type="radio" id="remote_pref_yes_3" name="remote_pref" value="remote_pref_yes_3">
+                    <label for="remote_pref_yes_3">Definitely yes</label>
+                    <br>
+                </li>
+                <br>
+                <li>
+                    <label for="q7">Why, or why not?</label>
+                    <br>
+                    <textarea id="q7" name="q7" rows="10" cols ="100">
+                        Why/why not does your company prefer remote hiring?
+                    </textarea> 
+                </li>
+                <br>
+                <li>
+                    <label for="">
+                        Have there been any recent remote hiring trends you have noticed since the <div class="preLockDown">COVID lockdown<span class="tooltip">Lockdown has started in London, ON around mid-March, 2020?</span></div>
+                        <br> <span class="hint">For instance, has the pool of skill-sets saught after changed? Are you considering a wider talent pool, such as candidates from outside London? Are you hiring for merged roles that would have normally (pre-lockdown) been separate positions? Those are just suggestions; any insights, particularly those in the light of pre/post lockdown comparisons, are most welcome!</span>
+                    </label>
+                </li>
+                <br>
+            </ol>
+
+        </form>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>

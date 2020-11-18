@@ -1,0 +1,56 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 70%;
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto;
+}
+
+.rangeResponse {
+  max-width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.hint {
+  font-style: italic;
+}
+
+.preLockDown {
+  border-bottom: 0.5px grey dotted;
+  display: inline;
+}
+
+.preLockDown .tooltip {
+  position: absolute;
+}
+
+.preLockDown:hover .tooltip {
+  display: block;
+}
+
+.tooltip {
+  display: none;
+  background-color: #e8e6e1;
+  padding: 3px 5px;
+  border-radius: 15px;
+  margin-top: -3.5%;
+  z-index: 1;
+  position: relative;
+}
+
+/*# sourceMappingURL=main.css.map */
