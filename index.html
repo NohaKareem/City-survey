@@ -12,6 +12,35 @@
     <main>
         <h1 class="hidden">City Project Survey</h1>
         <form action="#">
+            <h2>5. Change in Job Demands and Hires</h2>
+            <ol>
+                <li>
+                    <label for="q5.1">
+                        How would you compare your company's demand for hiring skilled team members with <div class="preLockDown">pre-lockdown <span class="tooltip">druing 4 months to the COVID lockdown (around mid-March, 2020)</span></div> days?
+                    </label>
+                </li>
+                <br>
+                <input type="radio" id="q5_1_less_3" name="q5.1" value="q5_1_less_3">
+                <label for="q5_1_less_3">Much less</label>
+                <br>
+                <input type="radio" id="q5_1_less_2" name="q5.1" value="q5_1_less_2">
+                <label for="q5_1_less_2">Considerably less</label>
+                <br>
+                <input type="radio" id="q5_1_less_1" name="q5.1" value="q5_1_less_1">
+                <label for="q5_1_less_1">A little less</label>
+                <br>
+                <input type="radio" id="q5_1_neutral" name="q5.1" value="q5_1_neutral">
+                <label for="q5_1_neutral">Same demand</label>
+                <br>
+                <input type="radio" id="q5_1_more_1" name="q5.1" value="q5_1_more_1">
+                <label for="q5_1_more_1">A little more</label>
+                <br>
+                <input type="radio" id="q5_1_more_2" name="q5.1" value="q5_1_more_2">
+                <label for="q5_1_more_2">Considerably more</label>
+                <br>
+                <input type="radio" id="q5_1_more_3" name="q5.1" value="q5_1_more_3">
+                <label for="q5_1_more_3">Much more</label>
+            </ol>
             <h2>11. Shift to Remote Work</h2>
             <ol>
                 <li>
@@ -144,14 +173,16 @@
                 </li>
                 <br>
                 <li>
-                    <label for="">
+                    <label for="q8">
                         Have there been any recent remote hiring trends you have noticed since the <div class="preLockDown">COVID lockdown<span class="tooltip">Lockdown has started in London, ON around mid-March, 2020?</span></div>
                         <br> <span class="hint">For instance, has the pool of skill-sets saught after changed? Are you considering a wider talent pool, such as candidates from outside London? Are you hiring for merged roles that would have normally (pre-lockdown) been separate positions? Those are just suggestions; any insights, particularly those in the light of pre/post lockdown comparisons, are most welcome!</span>
                     </label>
+                    <textarea id="q8" name="q8" rows="10" cols ="100">
+                        Noticed remote hiring trend insights
+                    </textarea> 
                 </li>
                 <br>
             </ol>
-
         </form>
     </main>
     <script src="js/main.js"></script>
