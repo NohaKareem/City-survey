@@ -18,28 +18,45 @@
                     <label for="q5.1">
                         How would you compare your company's demand for hiring skilled team members with <div class="preLockDown">pre-lockdown <span class="tooltip">druing 4 months to the COVID lockdown (around mid-March, 2020)</span></div> days?
                     </label>
+                    <br>
+                    <input type="radio" id="q5_1_less_3" name="q5.1" value="q5_1_less_3">
+                    <label for="q5_1_less_3">Much less</label>
+                    <br>
+                    <input type="radio" id="q5_1_less_2" name="q5.1" value="q5_1_less_2">
+                    <label for="q5_1_less_2">Considerably less</label>
+                    <br>
+                    <input type="radio" id="q5_1_less_1" name="q5.1" value="q5_1_less_1">
+                    <label for="q5_1_less_1">A little less</label>
+                    <br>
+                    <input type="radio" id="q5_1_neutral" name="q5.1" value="q5_1_neutral">
+                    <label for="q5_1_neutral">Same demand</label>
+                    <br>
+                    <input type="radio" id="q5_1_more_1" name="q5.1" value="q5_1_more_1">
+                    <label for="q5_1_more_1">A little more</label>
+                    <br>
+                    <input type="radio" id="q5_1_more_2" name="q5.1" value="q5_1_more_2">
+                    <label for="q5_1_more_2">Considerably more</label>
+                    <br>
+                    <input type="radio" id="q5_1_more_3" name="q5.1" value="q5_1_more_3">
+                    <label for="q5_1_more_3">Much more</label>
                 </li>
+                    
                 <br>
-                <input type="radio" id="q5_1_less_3" name="q5.1" value="q5_1_less_3">
-                <label for="q5_1_less_3">Much less</label>
-                <br>
-                <input type="radio" id="q5_1_less_2" name="q5.1" value="q5_1_less_2">
-                <label for="q5_1_less_2">Considerably less</label>
-                <br>
-                <input type="radio" id="q5_1_less_1" name="q5.1" value="q5_1_less_1">
-                <label for="q5_1_less_1">A little less</label>
-                <br>
-                <input type="radio" id="q5_1_neutral" name="q5.1" value="q5_1_neutral">
-                <label for="q5_1_neutral">Same demand</label>
-                <br>
-                <input type="radio" id="q5_1_more_1" name="q5.1" value="q5_1_more_1">
-                <label for="q5_1_more_1">A little more</label>
-                <br>
-                <input type="radio" id="q5_1_more_2" name="q5.1" value="q5_1_more_2">
-                <label for="q5_1_more_2">Considerably more</label>
-                <br>
-                <input type="radio" id="q5_1_more_3" name="q5.1" value="q5_1_more_3">
-                <label for="q5_1_more_3">Much more</label>
+                <li>
+                    <label for="">Roughly how many <div class="preLockDown">unique <span class="tooltip">Unique per position, not posting medium. For instnace, one job posted on the company website and five other hiring websites is marked as 1.</span></div> monthly postings has your company been posting <div class="preLockDown">pre-lockdown <span class="tooltip">druing 4 months to the COVID lockdown (around mid-March, 2020)</span></div>?</label>
+                    <br>
+                    <input type="range" value="0" id="q5_2" name="q5_2" min="0" max="50" list="job_posts" class="question">
+                    <datalist id="job_posts">
+                        <option value="0"></option>
+                        <option value="10"></option>
+                        <option value="20"></option>
+                        <option value="30"></option>
+                        <option value="40"></option>
+                        <option value="50"></option>
+                    </datalist>
+                    <p class="response notPercent"></p>
+            </li>
+                
             </ol>
             <h2>11. Shift to Remote Work</h2>
             <ol>

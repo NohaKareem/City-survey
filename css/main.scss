@@ -21,15 +21,12 @@ main {
 }
 
 .rangeResponse {
-    // display: grid;
     max-width: 100%;
     display: flex;
-    // flex-direction: row;
-    // justify-content: space-between;
     align-items: stretch;
-    // grid-template-columns: repeat(2, minmax(0, 1fr));
-    // column-gap: 5%;
 }
+
+.response { display: inline; }
 
 .hint { font-style: italic; }
 

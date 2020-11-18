@@ -26,6 +26,10 @@ main {
   align-items: stretch;
 }
 
+.response {
+  display: inline;
+}
+
 .hint {
   font-style: italic;
 }
