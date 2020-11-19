@@ -39,11 +39,16 @@
                     <br>
                     <input type="radio" id="q5_1_more_3" name="q5.1" value="q5_1_more_3">
                     <label for="q5_1_more_3">Much more</label>
+
+                    <label for="q5_1_notes" class="hidden">additional notes</label>
+                    <textarea name="q5_1_notes" id="q5_1_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
                 </li>
                     
                 <br>
                 <li>
-                    <label for="">
+                    <label for="q5_2">
                         Roughly how many <div class="preLockDown">unique <sup>?</sup><span class="tooltip">Unique per position, not posting medium. For instnace, one job posted on the company website and five other hiring websites is marked as 1.</span></div> 
                         monthly positions has your company been posting <div class="preLockDown">pre-lockdown 
                         <sup>?</sup><span class="tooltip">druing 4 months prior to the COVID lockdown (around mid-March, 2020)</span></div>?
@@ -59,6 +64,11 @@
                         <option value="25"></option>
                     </datalist>
                     <p class="response notPercent"></p>
+
+                    <label for="q5_2_notes" class="hidden">additional notes</label>
+                    <textarea name="q5_2_notes" id="q5_2_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
                 </li>
 
                 <br>
@@ -71,6 +81,11 @@
                     <br>
                     <input type="range" value="0" id="q5_3" name="q5_3" min="0" max="25" list="job_posts" class="question">
                     <p class="response notPercent"></p>
+                    
+                    <label for="q5_3_notes" class="hidden">additional notes</label>
+                    <textarea name="q5_3_notes" id="q5_3_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
                 </li>
 
                 <br>
@@ -95,9 +110,14 @@
                     <input type="radio" id="q5_4_6" name="q5_4" value="q5_4_6">
                     <label for="q5_4_6">201 - 500</label>
                     <br>
-                    <input type="radio" id="q4_5_7" name="q5_4" value="q4_5_7">
-                    <label for="q4_5_7">Over 500</label>
+                    <input type="radio" id="q5_4_7" name="q5_4" value="q5_4_7">
+                    <label for="q5_4_7">Over 500</label>
                     <br>
+
+                    <label for="q5_4_notes" class="hidden">additional notes</label>
+                    <textarea name="q5_4_notes" id="q5_4_notes" cols="100" rows="2">
+                        Additional notes/comments, if any (for instance, does the number of job applicants vary per job position?)
+                    </textarea>
                 </li>
                 
                 <br>
@@ -125,6 +145,11 @@
                     <input type="radio" id="q5_5_5" name="q5_5" value="q5_5_5">
                     <label for="q5_5_5">Over 500</label>
                     <br>
+                    
+                    <label for="q5_5_notes" class="hidden">additional notes</label>
+                    <textarea name="q5_5_notes" id="q5_5_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
                 </li>
 
                 <br>
@@ -136,6 +161,11 @@
                     <br>
                     <input type="range" value="0" id="q5_6" name="q5_6" min="0" max="25" list="job_posts" class="question">
                     <p class="response notPercent"></p>
+                    
+                    <label for="q5_6_notes" class="hidden">additional notes</label>
+                    <textarea name="q5_6_notes" id="q5_6_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
                 </li>
 
                 <br>
@@ -147,6 +177,11 @@
                     <br>
                     <input type="range" value="0" id="q5_7" name="q5_7" min="0" max="25" list="job_posts" class="question">
                     <p class="response notPercent"></p>
+
+                    <label for="q5_7_notes" class="hidden">additional notes</label>
+                    <textarea name="q5_7_notes" id="q5_7_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
                 </li>
 
                 <br>
@@ -157,6 +192,7 @@
                         </span>
                     </label>
 
+                    <label for="q5_8_notes" class="hidden">additional notes</label>
                     <textarea name="q5_8" id="q5_8" cols="100" rows="10">
                         Observed demand/hiring insights
                     </textarea>
@@ -183,18 +219,28 @@
                             <option value="90"></option>
                             <option value="100"></option>
                         </datalist>
-                    <p class="q1_response response">%</p>
+                        <p class="q1_response response">%</p>
                     </div>
-                </li>
 
+                    <label for="q1_notes" class="hidden">additional notes</label>
+                    <textarea name="q1_notes" id="q1_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
+                </li>
+                <br>
                 <li>
                     <label for="q2">What is the current percentage of employees who work remotely on a regular basis?</label>
                     <div class="rangeResponse">
                         <input type="range" value="0" id="q2" name="q2" list="percentages" class="question">
                         <p class="q2_response response">%</p>
                     </div>
+                    
+                    <label for="q2_notes" class="hidden">additional notes</label>
+                    <textarea name="q2_notes" id="q2_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
                 </li>
-
+                <br>
                 <li>
                     <label for="london_loc">If there were remote employees <div class="preLockDown">pre-lockdown <sup>?</sup><span class="tooltip">druing 4 months prior to the COVID lockdown (around mid-March, 2020)</span></div>, were all remote employees London-based?</label>
                     <br>
@@ -213,7 +259,13 @@
                         <input type="range" value="0" id="q3_2_2" name="q3_2_2" list="percentages" class="question">
                         <p class="response">%</p>
                     </div>
+
+                    <label for="q3_notes" class="hidden">additional notes</label>
+                    <textarea name="q3_notes" id="q3_notes" cols="100" rows="2">
+                        Additional notes/comments, if any (for instance, if you hire employees from abroad, what countries do you hire from?) 
+                    </textarea>
                 </li>
+                <br>
                 <li>
                     <label for="london_loc">If there currently are remote employees, are all remote employees London-based?</label>
                     <br>
@@ -232,7 +284,13 @@
                         <input type="range" value="0" id="q3_3_2" name="q3_3_2" list="percentages" class="question">
                         <p class="response">%</p>
                     </div>
+                    
+                    <label for="q3_notes" class="hidden">additional notes</label>
+                    <textarea name="q3_notes" id="q3_notes" cols="100" rows="2">
+                        Additional notes/comments, if any (for instance, if you hire employees from abroad, what countries do you hire from?) 
+                    </textarea>
                 </li>
+                <br>
                 <li>
                     <label for="future_remote">In the absence of COVID, how far does your company plan to instill remote hiring practices moving onwards?</label>
                     <br>
@@ -257,6 +315,11 @@
                     <input type="radio" id="remote_full" name="future_remote" value="remote_full">
                     <label for="remote_full">Go fully remote (100%)</label>
                     <br>
+
+                    <label for="q4_notes" class="hidden">additional notes</label>
+                    <textarea name="q4_notes" id="q4_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
                 </li>
                 <br>
                 <li>
@@ -283,6 +346,11 @@
                     <input type="radio" id="remote_pref_yes_3" name="remote_pref" value="remote_pref_yes_3">
                     <label for="remote_pref_yes_3">Definitely yes</label>
                     <br>
+
+                    <label for="q5_notes" class="hidden">additional notes</label>
+                    <textarea name="q5_notes" id="q5_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
                 </li>
                 <br>
                 <li>
