@@ -45,18 +45,18 @@
                 <li>
                     <label for="">
                         Roughly how many <div class="preLockDown">unique <sup>?</sup><span class="tooltip">Unique per position, not posting medium. For instnace, one job posted on the company website and five other hiring websites is marked as 1.</span></div> 
-                        monthly vacancies has your company been posting <div class="preLockDown">pre-lockdown 
+                        monthly positions has your company been posting <div class="preLockDown">pre-lockdown 
                         <sup>?</sup><span class="tooltip">druing 4 months prior to the COVID lockdown (around mid-March, 2020)</span></div>?
                     </label>
                     <br>
-                    <input type="range" value="0" id="q5_2" name="q5_2" min="0" max="50" list="job_posts" class="question">
+                    <input type="range" value="0" id="q5_2" name="q5_2" min="0" max="25" list="job_posts" class="question">
                     <datalist id="job_posts">
                         <option value="0"></option>
+                        <option value="5"></option>
                         <option value="10"></option>
+                        <option value="15"></option>
                         <option value="20"></option>
-                        <option value="30"></option>
-                        <option value="40"></option>
-                        <option value="50"></option>
+                        <option value="25"></option>
                     </datalist>
                     <p class="response notPercent"></p>
                 </li>
@@ -65,11 +65,11 @@
                 <li>
                     <label for="q5_3">
                         Roughly how many <div class="preLockDown">unique <sup>?</sup><span class="tooltip">Unique per position, not posting medium. For instnace, one job posted on the company website and five other hiring websites is marked as 1.</span></div> 
-                        monthly vacancies has your company been posting since <div class="preLockDown">lockdown 
+                        monthly positions has your company been posting since <div class="preLockDown">lockdown 
                         <sup>?</sup><span class="tooltip">Lockdown has started in London, ON around mid-March, 2020</span></div>?
                     </label>
                     <br>
-                    <input type="range" value="0" id="q5_3" name="q5_3" min="0" max="50" list="job_posts" class="question">
+                    <input type="range" value="0" id="q5_3" name="q5_3" min="0" max="25" list="job_posts" class="question">
                     <p class="response notPercent"></p>
                 </li>
 
@@ -153,7 +153,7 @@
                 <li>
                     <label for="q5_8">Has there been any recent demand or hiring trends you have noticed?
                         <span class="hint">
-                            For instance, do you sense more/less need for hires, more/less job applications submitted per vacancy posting? Do job application frequencies vary drastically depending on the position? Those are just suggestions; any insights, particularly those in the light of pre/post lockdown comparisons, are most welcome!
+                            For instance, do you sense more/less need for hires, more/less job applications submitted per position posting? Do job application frequencies vary drastically depending on the position? Those are just suggestions; any insights, particularly those in the light of pre/post lockdown comparisons, are most welcome!
                         </span>
                     </label>
 
@@ -196,13 +196,13 @@
                 </li>
 
                 <li>
-                    <label for="london_loc">If there were remote workers <div class="preLockDown">pre-lockdown <sup>?</sup><span class="tooltip">druing 4 months prior to the COVID lockdown (around mid-March, 2020)</span></div>, were all remote workers London-based?</label>
+                    <label for="london_loc">If there were remote employees <div class="preLockDown">pre-lockdown <sup>?</sup><span class="tooltip">druing 4 months prior to the COVID lockdown (around mid-March, 2020)</span></div>, were all remote employees London-based?</label>
                     <br>
                     <input type="radio" id="london_loc_yes" name="london_loc" value="yes">
                     <label for="london_loc_yes">Yes</label>
                     <input type="radio" id="london_loc_no" name="london_loc" value="no">
                     <label for="london_loc_no">No</label>
-                    <p>If answered No above, what roughly is the percentage of remote-workers from Canada, and abroad?</p>
+                    <p>If answered No above, what roughly is the percentage of remote employees from Canada, and abroad?</p>
                     <div class="rangeResponse">
                         <label for="q3_2_1"> <p>Canada</p></label>
                         <input type="range" value="0" id="q3_2_1" name="q3_2_1" list="percentages" class="question">
@@ -221,7 +221,7 @@
                     <label for="london_loc_yes">Yes</label>
                     <input type="radio" id="london_loc_no" name="london_loc" value="no">
                     <label for="london_loc_no">No</label>
-                    <p>If answered No above, what roughly is the percentage of remote-workers from Canada, and abroad?</p>
+                    <p>If answered No above, what roughly is the percentage of remote employees from Canada, and abroad?</p>
                     <div class="rangeResponse">
                         <label for="q3_3_1"><p>Canada</p></label>
                         <input type="range" value="0" id="q3_3_1" name="q3_3_1" list="percentages" class="question">
