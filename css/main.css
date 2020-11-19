@@ -34,6 +34,13 @@ main {
   font-style: italic;
 }
 
+sup {
+  color: grey;
+  font-size: 0.7rem;
+  margin-left: -3px;
+  margin-right: 5px;
+}
+
 .preLockDown {
   border-bottom: 0.5px grey dotted;
   display: inline;
@@ -52,7 +59,8 @@ main {
   background-color: #e8e6e1;
   padding: 3px 5px;
   border-radius: 15px;
-  margin-top: -3.5%;
+  margin-top: -4.5%;
+  margin-left: 5%;
   z-index: 1;
   position: relative;
 }
