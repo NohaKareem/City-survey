@@ -11,11 +11,11 @@
         });
     });
 
+    // update tooltip position
     hoverElements.forEach((hoveredElem, i) => {
         hoveredElem.addEventListener('mouseover', e => {
             tooltips[i].style.left = e.clientX + "px";
-            tooltips[i].style.top = e.clientY + "px";
-            console.log(tooltips[i].style.marginTop)
+            tooltips[i].style.top = (e.clientY - e.target.getBoundingClientRect()) + "px";
         });
     });
 })();
