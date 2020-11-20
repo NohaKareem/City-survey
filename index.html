@@ -76,6 +76,32 @@
 
                 <br>
                 <li>
+                    <label for="q5_2_2">
+                        Roughly how many <div class="preLockDown">unique <sup>?</sup><span class="tooltip">Unique per position, not posting medium. For instnace, one job posted on the company website and five other hiring websites is marked as 1.</span></div> 
+                        monthly positions has your company posted <div class="preLockDown">during lockdown 
+                        <sup>?</sup><span class="tooltip">Lockdown has started in London, ON around mid-March, 2020. It has lifted on <a href="https://www.ontario.ca/page/reopening-ontario-stages#section-1">17 July, 2020</a> for London, ON (Source: ontario.ca).</span></div>?
+                    </label>
+                    <br>
+                    <input type="range" value="0" id="q5_2_2" name="q5_2_2" min="0" max="25" list="job_posts" class="question">
+                    <datalist id="job_posts">
+                        <option value="0"></option>
+                        <option value="5"></option>
+                        <option value="10"></option>
+                        <option value="15"></option>
+                        <option value="20"></option>
+                        <option value="25"></option>
+                    </datalist>
+                    <p class="response notPercent"></p>
+
+                    <br>
+                    <label for="q5_2_2_notes" class="hidden">additional notes</label>
+                    <textarea name="q5_2_2_notes" id="q5_2_2_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
+                </li>
+
+                <br>
+                <li>
                     <label for="q5_3">
                         Roughly how many <div class="preLockDown">unique <sup>?</sup><span class="tooltip">Unique per position, not posting medium. For instnace, one job posted on the company website and five other hiring websites is marked as 1.</span></div> 
                         monthly positions has your company been posting <div class="preLockDown">post-lockdown 
@@ -120,6 +146,39 @@
                     <br>
                     <label for="q5_4_notes" class="hidden">additional notes</label>
                     <textarea name="q5_4_notes" id="q5_4_notes" cols="100" rows="2">
+                        Additional notes/comments, if any (for instance, does the number of job applicants vary per job position?)
+                    </textarea>
+                </li>
+
+                <br>
+                <li>
+                    <label for="q5_4_2">On average, how many applicants have applied per job position <div class="preLockDown">during lockdown 
+                    <sup>?</sup><span class="tooltip">Lockdown has started in London, ON around mid-March, 2020. It has lifted on <a href="https://www.ontario.ca/page/reopening-ontario-stages#section-1">17 July, 2020</a> for London, ON (Source: ontario.ca).</span></div>?</label>
+                    <br>
+                    <input type="radio" id="q5_4_2_1" name="q5_4_2" value="q5_4_2_1">
+                    <label for="q5_4_2_1">0</label>
+                    <br>
+                    <input type="radio" id="q5_4_2_2" name="q5_4_2" value="q5_4_2_2">
+                    <label for="q5_4_2_2">1 - 25</label>
+                    <br>
+                    <input type="radio" id="q5_4_2_3" name="q5_4_2" value="q5_4_2_3">
+                    <label for="q5_4_2_3">25 - 50</label>
+                    <br>
+                    <input type="radio" id="q5_4_2_4" name="q5_4_2" value="q5_4_2_4">
+                    <label for="q5_4_2_4">51 - 100</label>
+                    <br>
+                    <input type="radio" id="q5_4_2_5" name="q5_4_2" value="q5_4_2_5">
+                    <label for="q5_4_2_5">101 - 200</label>
+                    <br>
+                    <input type="radio" id="q5_4_2_6" name="q5_4_2" value="q5_4_2_6">
+                    <label for="q5_4_2_6">201 - 500</label>
+                    <br>
+                    <input type="radio" id="q5_4_2_7" name="q5_4_2" value="q5_4_2_7">
+                    <label for="q5_4_2_7">Over 500</label>
+                    
+                    <br>
+                    <label for="q5_4_2_notes" class="hidden">additional notes</label>
+                    <textarea name="q5_4_2_notes" id="q5_4_2_notes" cols="100" rows="2">
                         Additional notes/comments, if any (for instance, does the number of job applicants vary per job position?)
                     </textarea>
                 </li>
@@ -175,6 +234,23 @@
 
                 <br>
                 <li>
+                    <label for="q5_6_2">
+                        Roughly how many monthly hires has your company been making <div class="preLockDown">during lockdown 
+                        <sup>?</sup><span class="tooltip">Lockdown has started in London, ON around mid-March, 2020. It has lifted on <a href="https://www.ontario.ca/page/reopening-ontario-stages#section-1">17 July, 2020</a> for London, ON (Source: ontario.ca).</span></div>?
+                    </label>
+                    <br>
+                    <input type="range" value="0" id="q5_6_2" name="q5_6_2" min="0" max="25" list="job_posts" class="question">
+                    <p class="response notPercent"></p>
+                    
+                    <br>
+                    <label for="q5_6_2_notes" class="hidden">additional notes</label>
+                    <textarea name="q5_6_2_notes" id="q5_6_2_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
+                </li>
+
+                <br>
+                <li>
                     <label for="q5_7">
                         Roughly how many monthly hires has your company made <div class="preLockDown">post-lockdown 
                         <sup>?</sup><span class="tooltip">during 4 months after COVID lockdown-lift. The lift is marked by <a href="https://www.ontario.ca/page/reopening-ontario-stages#section-4">Stage 3</a> lockdown lift, on <a href="https://www.ontario.ca/page/reopening-ontario-stages#section-1">17 July, 2020</a> for London, ON (Source: ontario.ca)</span></div>?
@@ -194,7 +270,9 @@
                 <li>
                     <label for="q5_8">Has there been any recent demand or hiring trends you have noticed since the <div class="preLockDown"> lockdown<sup>?</sup><span class="tooltip">Lockdown has started in London, ON around mid-March, 2020</span></div>?
                         <span class="hint">
-                            For instance, do you sense more/less need for hires, more/less job applications submitted per position posting? Do job application frequencies vary drastically depending on the position? Those are just suggestions; any insights, particularly those in the light of pre/post lockdown comparisons, are most welcome!
+                            For instance, do you sense more/less need for hires, more/less job applications submitted per position posting? 
+                            Do job application frequencies vary drastically depending on the position? Has a demand for new skill-sets surfaced in light of the lockdown? Are you noticing different applicants than normal (such as more/less remote applicants, or more junior/senior applicants)? 
+                            Those are just suggestions; any insights, particularly those in the light of pre/post lockdown comparisons, are most welcome!
                         </span>
                     </label>
 
@@ -297,37 +375,71 @@
                         Additional notes/comments, if any (for instance, if you hire employees from abroad, what countries do you hire from?) 
                     </textarea>
                 </li>
+            
                 <br>
                 <li>
-                    <label for="future_remote">In the absence of COVID, how far does your company plan to increase remote hiring practices moving forwards; specifically what is the remote work ratio your company intends to achieve moving onwards?</label>
+                    <label for="future_remote">In the absence of COVID, how do you see remote work in your company, in comparison to its pre-lockdown patterns, shaping over the next year?</label>
                     <br>
-                    <input type="radio" id="remote_full" name="future_remote" value="remote_full">
-                    <label for="remote_full">Go fully remote (100%)</label>
+                    <input type="radio" id="remote_1" name="future_remote" value="remote_1">
+                    <label for="remote_1">Definitely increasing, or fully remote work</label>
                     <br>
-                    <input type="radio" id="remote_81-99" name="future_remote" value="remote_81-99">
-                    <label for="remote_81-99">81-99% remote</label>
+                    <input type="radio" id="remote_2" name="future_remote" value="remote_2">
+                    <label for="remote_2">Mostly increasing</label>
                     <br>
-                    <input type="radio" id="remote_61_80" name="future_remote" value="remote_61_80">
-                    <label for="remote_61_80">61-80% remote</label>
+                    <input type="radio" id="remote_3" name="future_remote" value="remote_3">
+                    <label for="remote_3">Somewhat increasing</label>
                     <br>
-                    <input type="radio" id="remote_41_60" name="future_remote" value="remote_41_60">
-                    <label for="remote_41_60">41-60% remote</label>
+                    <input type="radio" id="remote_4" name="future_remote" value="remote_4">
+                    <label for="remote_4">The same as pre-lockdown, no change</label>
                     <br>
-                    <input type="radio" id="remote_21_40" name="future_remote" value="remote_21_40">
-                    <label for="remote_21_40">21-40% remote</label>
+                    <input type="radio" id="remote_5" name="future_remote" value="remote_5">
+                    <label for="remote_5">Somewhat decreasing</label>
                     <br>
-                    <input type="radio" id="remote_1_20" name="future_remote" value="remote_1_20">
-                    <label for="remote_1_20">1-20% remote</label>
+                    <input type="radio" id="remote_6" name="future_remote" value="remote_6">
+                    <label for="remote_6">Mostly decreasing</label>
                     <br>
-                    <input type="radio" id="no_remote" name="future_remote" value="no_remote">
-                    <label for="no_remote">No remote work (0%)</label>
+                    <input type="radio" id="remote_7" name="future_remote" value="remote_7">
+                    <label for="remote_7">Definitely decreasing, or no remote work</label>
+                   
                     <br>
-
                     <label for="q4_notes" class="hidden">additional notes</label>
                     <textarea name="q4_notes" id="q4_notes" cols="100" rows="2">
                         Additional notes/comments, if any 
                     </textarea>
                 </li>
+
+                <br>
+                <li>
+                    <label for="future_remote_2">In the absence of COVID, how do you see remote work in your company, in comparison to its pre-lockdown patterns, shaping over the next 5 years?</label>
+                    <br>
+                    <input type="radio" id="remote_2_1" name="future_remote_2_2" value="remote_2_1">
+                    <label for="remote_2_1">Definitely increasing, or fully remote work</label>
+                    <br>
+                    <input type="radio" id="remote_2_2" name="future_remote_2_2" value="remote_2_2">
+                    <label for="remote_2_2">Mostly increasing</label>
+                    <br>
+                    <input type="radio" id="remote_2_3" name="future_remote_2_2" value="remote_2_3">
+                    <label for="remote_2_3">Somewhat increasing</label>
+                    <br>
+                    <input type="radio" id="remote_2_4" name="future_remote_2_2" value="remote_2_4">
+                    <label for="remote_2_4">The same as pre-lockdown, no change</label>
+                    <br>
+                    <input type="radio" id="remote_2_5" name="future_remote_2_2" value="remote_2_5">
+                    <label for="remote_2_5">Somewhat decreasing</label>
+                    <br>
+                    <input type="radio" id="remote_2_6" name="future_remote_2_2" value="remote_2_6">
+                    <label for="remote_2_6">Mostly decreasing</label>
+                    <br>
+                    <input type="radio" id="remote_2_7" name="future_remote_2_2" value="remote_2_7">
+                    <label for="remote_2_7">Definitely decreasing, or no remote work</label>
+                   
+                    <br>
+                    <label for="q4_notes" class="hidden">additional notes</label>
+                    <textarea name="q4_notes" id="q4_notes" cols="100" rows="2">
+                        Additional notes/comments, if any 
+                    </textarea>
+                </li>
+
                 <br>
                 <li>
                     <label for="q4">Does your company currently have a preference towards hiring remotely?</label>
@@ -371,7 +483,8 @@
                 <li>
                     <label for="q8">
                         Have there been any recent remote hiring trends you have noticed since the <div class="preLockDown"> lockdown<sup>?</sup><span class="tooltip">Lockdown has started in London, ON around mid-March, 2020</span></div>?
-                        <br> <span class="hint">For instance, has the pool of skill-sets saught after changed? Are you considering a wider talent pool, such as candidates from outside London? Are you hiring for merged roles that would have normally (pre-lockdown) been separate positions? Those are just suggestions; any insights, particularly those in the light of pre/post lockdown comparisons, are most welcome!</span>
+                        <br> <span class="hint">For instance, Has a demand for new skill-sets surfaced in light of the lockdown? Are you considering a wider talent pool, such as candidates from outside London? Are you hiring for merged roles that would have normally (pre-lockdown) been separate positions? 
+                            Are you noticing different applicants than normal (such as more/less remote applicants, or more junior/senior applicants)? Those are just suggestions; any insights, particularly those in the light of pre/post lockdown comparisons, are most welcome!</span>
                     </label>
                 <br>
 
